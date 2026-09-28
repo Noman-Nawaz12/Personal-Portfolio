@@ -105,9 +105,6 @@ Personal-Portfolio/
 └── vite.config.ts            # Vite bundler options and plugin configurations
 
 ```
-
----
-
 ## 🛠️ Technology Architecture
 
 | Layer | Technology |
@@ -117,51 +114,6 @@ Personal-Portfolio/
 | **Design System & Styling** | Tailwind CSS, shadcn/ui, Lucide Icons |
 | **Runtime & Build Pipeline** | Vite, Bun Environment (`bun.lock`, `bunfig.toml`) |
 | **Code Quality & Tooling** | ESLint, Prettier |
-
----
-
-## ⚙️ Local Development Setup
-
-### Prerequisites
-
-Ensure that **Bun** (or Node.js v18+) is installed on your local development machine.
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Noman-Nawaz12/Personal-Portfolio.git
-cd Personal-Portfolio
-
-```
-
-### 2. Install Dependencies
-
-```bash
-bun install
-# or
-npm install
-
-```
-
-### 3. Launch Development Server
-
-```bash
-bun dev
-# or
-npm run dev
-
-```
-
-### 4. Build for Production
-
-```bash
-bun run build
-# or
-npm run build
-
-```
-
----
 
 ## 👨‍💻 Author
 
@@ -175,8 +127,4 @@ Software Engineering Student @ Foundation University Islamabad (CGPA 3.00/4.0)
 * **LinkedIn:** [Noman Nawaz](https://www.google.com/search?q=https://linkedin.com/in/noman-nawaz)
 * **Location:** Rawalpindi, Pakistan
 
----
 
-## 📄 License
-
-This project is licensed under the MIT License.
