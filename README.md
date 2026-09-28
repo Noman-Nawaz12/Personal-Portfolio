@@ -8,87 +8,175 @@
 ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-Components-000000?logo=shadcnui&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-Runtime-000000?logo=bun&logoColor=white)
 
-A modern, high-performance personal portfolio website built with **React**, **TypeScript**, **TanStack Router**, **shadcn/ui**, **Tailwind CSS**, and **Vite** (powered by **Bun**). Designed to showcase projects, skills, certifications, and experience in **AI Development, Agentic AI, RAG Systems, and Full-Stack Engineering**[cite: 11, 14].
+A high-performance, responsive personal portfolio web application built with **React**, **TypeScript**, **TanStack Router**, **shadcn/ui**, **Tailwind CSS**, and **Vite** (powered by **Bun**). Engineered to highlight technical expertise, production projects, certifications, and background in **AI Development, Agentic AI Workflows, Retrieval-Augmented Generation (RAG) Systems, and Full-Stack Engineering**.
 
 ---
 
-## 🏷️ Technologies
+## 🏷️ Technical Stack
 
 React | TypeScript | Vite | TanStack Router | Tailwind CSS | shadcn/ui | Bun | Lucide Icons | ESLint | Prettier
 
 ---
 
-## 📌 Project Overview
+## 📌 Executive Overview
 
-This repository contains the source code for the personal portfolio of **Noman Nawaz**, a Software Engineering student at Foundation University Islamabad[cite: 11, 12]. 
+This repository hosts the source code for the interactive portfolio of **Noman Nawaz**, a Software Engineering student at Foundation University Islamabad.
 
-The portfolio serves as an interactive showcase of real-world AI applications, agentic workflows, RAG implementations, and web development projects[cite: 12, 14, 15]. It incorporates dark-mode aesthetic cards, smooth tilt effects, a dynamic technical spec sheet, an academic timeline, and verified certification cards[cite: 13, 14, 16, 17].
+The application serves as a comprehensive visual showcase of production-ready AI applications, multi-agent frameworks, RAG implementations, and web projects. Key interface highlights include modern dark-mode components, subtle tilt interactions, an interactive technical spec sheet, academic achievements, and verified certification credentials.
 
 ---
 
 ## 🚀 Key Features
 
 ### 👤 Modern Hero & Bio Section
-- Highlighting roles: **AI Development, Agentic AI, RAG Systems, Automations & Full-Stack Development**[cite: 11].
-- Quick links for downloadable CV and direct contact channels.
+
+* Clear positioning across key focus areas: **AI Development, Agentic AI Systems, RAG Workflows, Intelligent Automations, and Full-Stack Web Engineering**.
+* Integrated call-to-action buttons for resume download and direct professional communication channels.
 
 ### 🛠️ Interactive Technical Spec Sheet
-- Dynamic categorization of skills: Languages, Web, Databases, Artificial Intelligence, Tools, and Automation & Integration[cite: 14].
-- Clean tech badges for fast scanning[cite: 14].
+
+* Categorized presentation of core competencies across Languages, Web Development, Databases, AI Architectures, Development Tools, and System Integration.
+* Standardized tech badges for clear readability.
 
 ### 💻 Featured Projects Showcase
-- Directly links to public GitHub repositories[cite: 15].
-- Highlights key projects including:
-  - **Chest Xpert AI & Clinical Reporting System**[cite: 15]
-  - **Multi-Agent Content Writer (LangGraph)**[cite: 15]
-  - **Brand Pilot AI Social Media Automation (n8n)**[cite: 15]
 
-### 📜 Verified Certifications & Training
-- Visual verification badges for completed internships and training programs[cite: 16].
-- Features certificates from **ISPR** and **Teerop SMC Private Limited**[cite: 16].
+* Direct repository links for open-source GitHub projects.
+* Selected project highlights:
+* **Chest Xpert AI & Clinical Reporting System**
+* **Multi-Agent Content Writer (LangGraph)**
+* **Brand Pilot AI Social Media Automation (n8n)**
 
-### 📊 At a Glance (Metrics)
-- Highlights key academic and professional milestones:
-  - **4th Year** BS Software Engineering[cite: 17]
-  - **05** Internships Completed[cite: 17]
-  - **20+** Public GitHub Projects[cite: 17]
-  - **10+** Certifications Earned[cite: 17]
+
+
+### 📜 Verified Certifications & Credentials
+
+* Visual verification badges detailing professional internships, industry training, and academic accomplishments.
+* Features official credentials from **ISPR** and **Teerop SMC Private Limited**.
+
+### 📊 Professional Metrics
+
+* Core academic and professional achievements:
+* **4th Year** BS Software Engineering
+* **05** Completed Internships
+* **20+** Open-Source GitHub Repositories
+* **10+** Verified Certifications
+
+
 
 ### 🎓 Academic Timeline
-- Chronological breakdown of education history from Matriculation to BS Software Engineering.
 
-### 📬 Direct Contact Section
-- Integrated email, phone number, GitHub, and LinkedIn social links.
+* Structured timeline detailing education background up to BS Software Engineering.
+
+### 📬 Contact & Outreach
+
+* Direct outreach options via email, phone, GitHub, and LinkedIn profiles.
 
 ---
 
-## 🏗️ Project Structure
+## 🏗️ Repository Structure
 
 ```text
 Personal-Portfolio/
 ├── src/
-│   ├── assets/               # Certificate images and static assets
+│   ├── assets/               # Media assets, logos, and certificate verification images
 │   ├── components/
-│   │   └── ui/               # shadcn/ui component library
+│   │   └── ui/               # Modular shadcn/ui component library
 │   ├── hooks/
-│   │   └── use-mobile.tsx    # Mobile responsiveness hook
+│   │   └── use-mobile.tsx    # Custom hook for responsive viewport management
 │   ├── lib/
-│   │   ├── error-capture.ts  # Error handling utilities
-│   │   ├── error-page.ts     # Error boundary logic
-│   │   └── utils.ts          # Class merging (clsx/tailwind-merge)
-│   ├── routes/               # TanStack file-based routes
-│   ├── portfolio.html        # HTML entry point
-│   ├── router.tsx            # TanStack Router configuration
-│   ├── routeTree.gen.ts      # Auto-generated route tree
-│   ├── server.ts             # Server entry point
-│   ├── start.ts              # App startup file
-│   └── styles.css            # Global Tailwind CSS styles
-├── .gitignore                # Git ignore rules
-├── .prettierrc               # Prettier configuration
-├── bun.lock                  # Bun lockfile
-├── bunfig.toml               # Bun configuration file
-├── components.json           # shadcn/ui configuration
-├── eslint.config.js          # ESLint setup
-├── package.json              # Project dependencies and scripts
-├── tsconfig.json             # TypeScript compiler options
-└── vite.config.ts            # Vite bundler configuration
+│   │   ├── error-capture.ts  # Error tracking and handling utilities
+│   │   ├── error-page.ts     # Global error boundary components
+│   │   └── utils.ts          # Utility functions for class name merging (clsx/tailwind-merge)
+│   ├── routes/               # File-based routes managed via TanStack Router
+│   ├── portfolio.html        # HTML entry document
+│   ├── router.tsx            # Main TanStack Router instance setup
+│   ├── routeTree.gen.ts      # Auto-generated routing configuration tree
+│   ├── server.ts             # Server entry module
+│   ├── start.ts              # Client bootstrapping and runtime initialization
+│   └── styles.css            # Global Tailwind CSS configurations and custom styles
+├── .gitignore                # Git exclusion directives
+├── .prettierrc               # Prettier code formatting rules
+├── bun.lock                  # Bun lockfile for reproducible installations
+├── bunfig.toml               # Bun runtime configuration parameters
+├── components.json           # Component configuration for shadcn/ui
+├── eslint.config.js          # Static code analysis configuration
+├── package.json              # Project metadata, dependencies, and execution scripts
+├── tsconfig.json             # TypeScript language and compiler options
+└── vite.config.ts            # Vite bundler options and plugin configurations
+
+```
+
+---
+
+## 🛠️ Technology Architecture
+
+| Layer | Technology |
+| --- | --- |
+| **Core Framework** | React 18, TypeScript |
+| **Routing** | TanStack Router (`routeTree.gen.ts`) |
+| **Design System & Styling** | Tailwind CSS, shadcn/ui, Lucide Icons |
+| **Runtime & Build Pipeline** | Vite, Bun Environment (`bun.lock`, `bunfig.toml`) |
+| **Code Quality & Tooling** | ESLint, Prettier |
+
+---
+
+## ⚙️ Local Development Setup
+
+### Prerequisites
+
+Ensure that **Bun** (or Node.js v18+) is installed on your local development machine.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Noman-Nawaz12/Personal-Portfolio.git
+cd Personal-Portfolio
+
+```
+
+### 2. Install Dependencies
+
+```bash
+bun install
+# or
+npm install
+
+```
+
+### 3. Launch Development Server
+
+```bash
+bun dev
+# or
+npm run dev
+
+```
+
+### 4. Build for Production
+
+```bash
+bun run build
+# or
+npm run build
+
+```
+
+---
+
+## 👨‍💻 Author
+
+**Noman Nawaz**
+
+Software Engineering Student @ Foundation University Islamabad (CGPA 3.00/4.0)
+
+* **Email:** [nomannawaz714@gmail.com](https://www.google.com/search?q=mailto%3Anomannawaz714%40gmail.com)
+* **Phone:** +92 334 3039999
+* **GitHub:** [github.com/Noman-Nawaz12](https://www.google.com/search?q=https://github.com/Noman-Nawaz12)
+* **LinkedIn:** [Noman Nawaz](https://www.google.com/search?q=https://linkedin.com/in/noman-nawaz)
+* **Location:** Rawalpindi, Pakistan
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
